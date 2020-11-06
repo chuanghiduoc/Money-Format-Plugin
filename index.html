@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Money Format Plugin</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/darkly/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style>
+.container { margin:150px auto; max-width:400px;}
+h2 { margin:30px auto;}
+</style>
+</head>
+<body>
+	<div class="container">
+    <h1>Js Format Money BaoTrongIT</h1>
+		<section>
+			<h2>Demo</h2>
+			<span class="money well">10000</span>
+		</section>
+		<section>
+			<h2>With Input</h2>
+			<input type="text" class="money form-control" value="20000">
+		</section>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript" src="../simple.money.format.js"></script>
+	<script type="text/javascript">
+		$('.money').simpleMoneyFormat();
+	</script>
+</body>
+</html>
